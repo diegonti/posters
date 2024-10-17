@@ -1,4 +1,35 @@
-# MXens com a Fotocatalitzadors del Trencament de l’Aigua
+# Websites to host my MXene posters
+
+Poster 1: 
+
+MXens com a Fotocatalitzadors del Trencament de l'Aigua
+
+Masterquímica XVIII, Barcelona, 2023.
+
+Reference: https://doi.org/10.1039/D3TA01933K, 
+
+
+Poster 2:
+
+MXenes as Photocatalytic Materials for Water Splitting
+
+8th International Conference on Semiconductor Photochemistry (SP8), Strasbourg, 2023.
+
+IQTC Meeting 2023, Barcelona, 2023.
+
+Reference: https://doi.org/10.1039/D3TA01933K, https://doi.org/10.1002/eem2.12774
+
+
+Poster 3:
+
+Exploring the Photoactive Properties of MXenes for Water Splitting
+
+Twins in Catalysis, Barcelona, 2024.
+
+IQTC Meeting 2024, Barcelona, 2024.
+
+Reference: Manuscript in review process
+
 
 <p align="center">
 <img src="img/github.png" alt= "GitHub logo" width="10%" height="10%"> 

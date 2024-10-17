@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 1.5em 0;
+    background-color: #333; /* Dark background to match your header's theme */
+    color: white;
+}
+
+/* Header's h1 styling */
+header h1 {
+    font-size: 2em;
+    margin: 0; /* No margin below to allow space for nav-links */
+    font-weight: bold;
+}
+
+/* Navigation links styling */
+.nav-links {
+    display: flex;
+    justify-content: space-between; /* Links on left and right */
+    align-items: center;
+    margin: 0 auto; /* Center the nav-links container */
+    padding: 0.5em 1em; /* Padding for better spacing */
+    background-color: #444; /* Slightly different background for contrast */
+    color: white; /* Ensure link color is white */
+}
+
+.nav-links a {
+    color: rgb(162, 162, 162); /* White links to match the header text */
+    font-size: 1em; /* Font size slightly smaller than h1 */
+    font-weight: normal;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.nav-links a:hover {
+    color: #ddd; /* Slightly lighter color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        align-items: center;
+    }
+
+    .nav-links a {
+        margin: 0.5em 0; /* Vertical space between links */
+    }
+}
+
+
+
+/* Poster summary page */
+.posters-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.poster-item {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.poster-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.poster-item h2 {
+    font-size: 1.2em;
+}
+
+.poster-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.poster-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.poster-item a:hover {
+    text-decoration: underline;
+}
+
+/* Poster details page */
+.poster-details {
+    padding: 2em;
+    text-align: center;
+}
+
+.poster-full {
+    max-width: 60%;
+    border-radius: 8px;
+}
+
+.poster-details h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.poster-details p {
+    font-size: 1em;
+    color: #333;
+}
+
+.poster-details a {
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.poster-details a:hover {
+    text-decoration: underline;
+}
+
+
+/* Acknowledgement logos */
+.acknowledgement-logos {
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Align logos vertically in the same row */
+    gap: 1em; /* Space between the logos */
+    flex-wrap: wrap; /* If screen is too narrow, logos will wrap to the next line */
+    margin-top: 1em;
+    padding: 1em 0;
+}
+
+.acknowledgement-logos img {
+    max-height: 50px;
+    transition: transform 0.3s ease; /* Optional: add a hover effect */
+}
+
+.acknowledgement-logos img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
